@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE XML SYSTEM "Assignement_Benedicte_Tuza_letters.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+         </titleStmt>
+         <publicationStmt>
+            <authority xml:lang="fr"></authority>
+            <availability>
+               <licence>
+                  <p></p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country></country>            
+                  <settlement></settlement>
+                  <repository xml:lang="fr">institution's name</repository>
+                  <idno></idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr"></language>
+         </langUsage>
+         <textDesc>
+            <channel mode="w"></channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="pol"></domain>
+            <factuality type="fact"/>
+            <interaction type="partial" active="single" passive="single"/>
+            <preparedness type="prepared"/>
+            <purpose type="declaration" degree="high"></purpose> 
+         </textDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName xml:lang="fr"></persName>
+               <placeName></placeName>
+               <date when="1377-01-05"><hi rend="superscript"></hi></date>
+            </correspAction>
+            <correspAction type="received">
+               <persName xml:lang="fr"></persName>
+               <placeName></placeName>
+               <date></date>
+            </correspAction>
+            <correspContext>
+               <ref type="prev"></ref>
+               <ref type="next"></ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <p>
+            <pb n="1r"/>
+            <lb n="1"/><persName></persName><persName>
+               <lb n="2"/></persName><hi rend="crossed"></hi>
+            <lb n="3"/><persName></persName>
+            <lb n="4"/>
+            <lb n="5"/><hi rend="superscript"></hi>
+            <lb n="6"/><placeName></placeName><date><hi rend="superscript"></hi></date>.
+         </p>
+         
+         <p>
+            <lb n="7"/><persName></persName>.
+         </p>
+         
+      </body>
+   </text>
+</TEI>

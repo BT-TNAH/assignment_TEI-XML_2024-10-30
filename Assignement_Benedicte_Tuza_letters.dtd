@@ -1,0 +1,100 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT TEI (teiHeader,text)>
+<!ATTLIST TEI xmlns CDATA #FIXED 'http://www.tei-c.org/ns/1.0'> 
+
+<!ELEMENT teiHeader (fileDesc,profileDesc)>
+<!ELEMENT text (body)>
+
+<!ELEMENT fileDesc (titleStmt,publicationStmt,sourceDesc)>
+<!ELEMENT profileDesc (langUsage,textDesc,correspDesc)>
+
+<!ELEMENT body (p)>
+
+<!ELEMENT titleStmt (title)>
+<!ELEMENT publicationStmt (authority,availability)>
+<!ELEMENT sourceDesc (msDesc)>
+
+<!ELEMENT langUsage (language)>
+<!ELEMENT textDesc (channel,constitution,derivation,domain,factuality,interaction,preparedness,purpose)>
+
+<!ELEMENT correspDesc (correspAction+,correspContext)>
+
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT authority (#PCDATA)>
+<!ATTLIST authority xml:lang NMTOKEN #REQUIRED>
+
+<!ELEMENT availability (licence)>
+
+<!ELEMENT msDesc (msIdentifier)>
+
+<!ELEMENT language (#PCDATA)>
+<!ATTLIST language ident NMTOKEN #REQUIRED>
+
+<!ELEMENT channel (#PCDATA)>
+<!ATTLIST channel mode NMTOKEN #REQUIRED>
+
+<!ELEMENT constitution EMPTY>
+<!ATTLIST constitution type NMTOKEN #REQUIRED>
+
+<!ELEMENT derivation EMPTY>
+<!ATTLIST derivation type NMTOKEN #REQUIRED>
+
+<!ELEMENT domain (#PCDATA)>
+<!ATTLIST domain type NMTOKEN #REQUIRED>
+
+<!ELEMENT factuality EMPTY>
+<!ATTLIST factuality type NMTOKEN #REQUIRED>
+
+<!ELEMENT interaction EMPTY>
+<!ATTLIST interaction active NMTOKEN #REQUIRED>
+<!ATTLIST interaction passive NMTOKEN #REQUIRED>
+<!ATTLIST interaction type NMTOKEN #REQUIRED>
+
+<!ELEMENT preparedness EMPTY>
+<!ATTLIST preparedness type NMTOKEN #REQUIRED>
+
+<!ELEMENT purpose (#PCDATA)>
+<!ATTLIST purpose degree NMTOKEN #REQUIRED>
+<!ATTLIST purpose type NMTOKEN #REQUIRED>
+
+<!ELEMENT correspAction (persName,placeName,date)>
+<!ATTLIST correspAction type NMTOKEN #REQUIRED>
+
+<!ELEMENT correspContext (ref+)>
+
+<!ELEMENT licence (p)>
+
+<!ELEMENT msIdentifier (country,settlement,repository,idno)>
+
+<!ELEMENT ref (#PCDATA|hi)*>
+<!ATTLIST ref type NMTOKEN #REQUIRED>
+
+<!ELEMENT hi (#PCDATA)>
+<!ATTLIST hi rend NMTOKEN #REQUIRED>
+
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT settlement (#PCDATA)>
+
+<!ELEMENT repository (#PCDATA)>
+<!ATTLIST repository xml:lang NMTOKEN #REQUIRED>
+
+<!ELEMENT idno (#PCDATA)>
+
+<!ELEMENT p (#PCDATA|date|hi|lb|persName|placeName|pb)*>
+
+<!ELEMENT pb EMPTY>
+<!ATTLIST pb n NMTOKEN #REQUIRED>
+
+<!ELEMENT persName (#PCDATA|lb)*>
+<!ATTLIST persName xml:lang NMTOKEN #IMPLIED>
+
+<!ELEMENT placeName (#PCDATA)>
+
+<!ELEMENT date (#PCDATA|hi)*>
+<!ATTLIST date when NMTOKEN #IMPLIED>
+<!ATTLIST date rend NMTOKEN #IMPLIED>
+
+<!ELEMENT lb EMPTY>
+<!ATTLIST lb n CDATA #REQUIRED>
