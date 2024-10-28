@@ -1,4 +1,4 @@
-# assignement_TEI-XML_2024-10-30
+# assignment_TEI-XML_2024-10-30
 
   I plan to transcribe and edit **three letters** written within the French royal court at the end of the 14th century, exchanged between the King of France and the members of his chancellery. The texts of these manuscripts are interesting for my research in **medieval diplomacy**, which deals with **the negotiations between the French and the Hungarian court**, about a wedding project, from 1374 to 1378, between Catherine, the king of Hungary’s daughter, and Louis, the king of France’s son. These letters reveal the behind-the-scenes aspects of the negotiations between the King of France and the King of Hungary, shedding light on the preparations leading to the signing of a marriage treaty and the compensation of an envoy sent on an embassy to the Kingdom of Hungary.
 
