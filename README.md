@@ -1,5 +1,20 @@
-# assignment_TEI-XML_2024-10-30
+# final_assignment_TEI-XML_2025-01-20
 
-  I plan to transcribe and edit **three letters** written within the French royal court at the end of the 14th century, exchanged between the King of France and the members of his chancellery. The texts of these manuscripts are interesting for my research in **medieval diplomacy**, which deals with **the negotiations between the French and the Hungarian court**, about a wedding project, from 1374 to 1378, between Catherine, the king of Hungary’s daughter, and Louis, the king of France’s son. These letters reveal the behind-the-scenes aspects of the negotiations between the King of France and the King of Hungary, shedding light on the preparations leading to the signing of a marriage treaty and the compensation of an envoy sent on an embassy to the Kingdom of Hungary.
+  This project focuses on **transcribing and editing three letters written within the French royal court at the end of the 14th century**. 
+  
+  These letters, exchanged between **the King of France and members of his chancellery**, are of particular interest to my research on **medieval diplomacy**. 
+  
+  Specifically, they pertain to **negotiations conducted between the French and Hungarian courts** from 1374 to 1378 regarding a proposed marriage between Catherine, the daughter of the King of Hungary, and Louis, the son of the King of France. 
+  
+  The documents provide valuable insights into the preparations for **the signing of a marriage treaty**, as well as the compensation of an envoy sent to the Kingdom of Hungary.
 
-  Using **XML** for structuring my project data would be a useful tool **to analyze the historical documents** I study. Indeed, XML provides **a flexible framework for encoding textual details**, such as the senders’ and addressees’ names, places of production and of conservation, and dates, indicated in these three letters. XML allows easy searching and detailed cross-referencing, by marking up each document’s specific parts. For instance, it will allow me **to compare the dates and the senders of the documents**, in order to reconstruct the chronology of these documents and therefore the progression of the negotiations. This structured format will also **improve interoperability** with other possible digital humanities projects also about the functioning of medieval diplomacy from the point of view of the French royal chancellery. It would **broaden collaboration opportunities**. Thus, XML’s versatility would enrich the accessibility and analytical value of my work on medieval diplomacy.
+
+
+
+  **Using XML** as the primary method for structuring and analyzing the data offers significant advantages for the study of these historical documents. 
+  
+  XML provides a flexible and precise framework for encoding critical textual details, such as the names of senders and addressees, production and conservation locations, and the dates associated with the letters. 
+
+  This structured approach will facilitate **efficient searching, detailed cross-referencing, and comparative analysis of the documents**, enabling a reconstruction of the chronology and the progression of the negotiations. 
+
+  Additionally, by adopting XML encoding, the project aims to ensure interoperability with other digital humanities initiatives, fostering broader collaboration opportunities and enriching the accessibility and analytical value of the study.
