@@ -11,6 +11,9 @@
 
 
 
+
+
+
   **Using XML** as the primary method for structuring and analyzing the data offers significant advantages for the study of these historical documents. 
   
   XML provides a flexible and precise framework for encoding critical textual details, such as the names of senders and addressees, production and conservation locations, and the dates associated with the letters. 
