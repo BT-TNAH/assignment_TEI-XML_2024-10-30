@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/letters_final_assignement_Generatedodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/letters_final_assignement_Generatedodd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter 2 sent inside of the king of France, Charles V's court</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority xml:lang="fr">Bénédicte Tuza</authority>
+            <availability>
+               <licence>
+                  <p>CC+BY and BSD-2 licences</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository xml:lang="fr">Archives nationales de France</repository>
+                  <idno>J 458 n°1 bis</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Middle French</language>
+         </langUsage>
+         <textDesc>
+            <channel mode="w">letter</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="pol">Political Diplomacy</domain>
+            <factuality type="fact"/>
+            <interaction type="partial" active="single" passive="plural"/>
+            <preparedness type="prepared"/>
+            <purpose type="demand" degree="high">to sign in the name of the French king's</purpose>
+         </textDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName xml:lang="fr">Charles V de France</persName>
+               <placeName>Senlis</placeName>
+               <date when="1375-12-17">17<hi rend="superscript">th</hi> December 1375</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName xml:lang="fr">Girart de Montagu</persName>
+               <persName xml:lang="fr">Jehan Tabari</persName>
+               <placeName>unknown</placeName>
+               <date>unknown</date>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">Previous letter of the french court: 17<hi rend="superscript"
+                     >th</hi> December 1375, sent by Bureau de La Rivière and Aleaume Boistel.</ref>
+               <ref type="next">Next letter of the french court: 5<hi rend="superscript">th</hi>
+                  January 1377, sent by Aleaume Boistel</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <p>
+            <pb n="1r"/>
+            <lb n="1"/>De par le roy, </p>
+         <p>
+            <lb n="2"/>Maistre Girart de Montagu et vous maistre Jehan Tabari, nous voulons que vous
+            deux, ou l’un de vous, faciez les <lb n="3"/>lettres, touchans le traittié du mariage de
+            Hongrye, en la formme et maniere, que Bureau de la Riviere, nostre premier <lb n="4"
+            />chambellen, et maistre Aleaume Boitel, nous ont escript, es lettres cy encloses, que
+            il est beseing de lez avoir. Et ycellez seigneez <lb n="5"/>de vostre saing et faciez
+            comme ledit Bureau, et Alleaume vous diront, car ainssi nous plest que vous le faciez.
+            Et pour ce <lb n="6"/>que il vous appare que ce procede de nostre conscience, avons en
+            ces presentes, escript nostre nom de nostre main. Donné à Senliz, <date
+               when="1375-12-17">ce XVII<hi rend="superscript">e</hi> jour <lb n="7"/>de
+               decembre</date>. </p>
+
+         <p>
+            <lb n="8"/>Charles </p>
+
+         <p>
+            <pb n="1v"/>
+            <lb n="1"/>À noz bien améz secrettairez, maistre <lb n="2"/>Girart de Montagu, et
+            maistre Jehan <lb n="3"/>Tabari, et à chascun d’eulx. </p>
+
+
+      </body>
+   </text>
+</TEI>

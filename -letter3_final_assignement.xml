@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/letters_final_assignement_Generatedodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/letters_final_assignement_Generatedodd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter 3 sent inside of the king of France, Charles V's court</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority xml:lang="fr">Bénédicte Tuza</authority>
+            <availability>
+               <licence>
+                  <p>CC+BY and BSD-2 licences</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository xml:lang="fr">Bibliothèque nationale de France</repository>
+                  <idno>Pièces originales, vol. 396, Boistel, n°17</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Middle French</language>
+         </langUsage>
+         <textDesc>
+            <channel mode="w">letter</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="pol">Political Diplomacy</domain>
+            <factuality type="fact"/>
+            <interaction type="partial" active="single" passive="single"/>
+            <preparedness type="prepared"/>
+            <purpose type="declaration" degree="high">payement of the French king's envoy</purpose>
+         </textDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName xml:lang="fr">Aleaume Boistel</persName>
+               <placeName>Senlis</placeName>
+               <date when="1377-01-05">5<hi rend="superscript">th</hi> January 1377</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName xml:lang="fr">unkown</persName>
+               <placeName>unknown</placeName>
+               <date>unknown</date>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">Previous letter of the french court: 17<hi rend="superscript"
+                     >th</hi> December 1375, sent by Charles V de France.</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <p>
+            <pb n="1r"/>
+            <lb n="1"/>Je, Aleaume Boistel, conseiller du roy nostre seigneur et maistre des
+            requesques de l’ostel du roy nostre dit seigneur, confesse avoir eu et receu de Francois
+            Chant- <lb n="2"/>prime, general receveur des aides de la guerre, la somme de deux cens
+            frans d’or, restans et demourans à paier, de la somme de iiii<hi rend="superscript"
+               >c</hi> frans d’or, qui ord- <lb n="3"/>-oné ont esté estre bailliéz sur ce qui m’est
+            et sera deu a cause des gaiges de viii francs par jour à moy ordennés et tauxés par
+            ledit seigneur pour faire mes <lb n="4"/>despens au voyage de Hongrie, où il m’apreta
+            envoier avec autres ses conseillers, ainsi que par mandement dudit seigneur sur ce fait
+            peut approuver de la- <lb n="5"/>-quelle somme de ii<hi rend="superscript">c</hi> frans
+            d’or dessus dite. Je me tien pour content et bien paiéz et en quieté le roy nostre dit
+            seigneur, ledit receveur general et <lb n="6"/> tous autres. Donné à Paris soubz mon
+            scel <date when="1377-01-05">le v<hi rend="superscript">e</hi> jour de janvier, l’an mil
+               ccclxxvii</date>. </p>
+
+         <p>
+            <lb n="7"/>Boistel S. </p>
+
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/letters_final_assignement_Generatedodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/letters_final_assignement_Generatedodd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter 1 sent inside of the king of France, Charles V's court</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority xml:lang="fr">Bénédicte Tuza</authority>
+            <availability>
+               <licence>
+                  <p>CC+BY and BSD-2 licences</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository xml:lang="fr">Archives nationales de France</repository>
+                  <idno>J 458 n°1 ter</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Middle French</language>
+         </langUsage>
+         <textDesc>
+            <channel mode="w">letter</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="pol">Political Diplomacy</domain>
+            <factuality type="fact"/>
+            <interaction type="partial" active="plural" passive="single"/>
+            <preparedness type="prepared"/>
+            <purpose type="demand" degree="high">to obtain the French king's signature, sent by
+               Charles V de France</purpose>
+         </textDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName xml:lang="fr">Bureau de La Rivière</persName>
+               <persName xml:lang="fr">Aleaume Boistel</persName>
+               <placeName>Paris</placeName>
+               <date when="1375-12-17">17<hi rend="superscript">th</hi> December 1375</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName xml:lang="fr">Charles V de France</persName>
+               <placeName>unknown</placeName>
+               <date>unknown</date>
+            </correspAction>
+            <correspContext>
+               <ref type="next">Next letter of the french court: 17<hi rend="superscript">th</hi>
+                  December 1375.</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <p>
+            <pb n="1r"/>
+            <lb n="1"/>Nostre tres redoubté et souverain seigneur plaise vous savoir que combien que
+            vous eussies commandé à maistre <hi rend="superscript">Girart</hi> de Montagu, vostre
+            secretaire, par une sedule <lb n="2"/>signee de vostre main que il copiast les lettres
+            du roy de Hongrie sur le traitié du mariage etc., si le fist, mais ce a esté par maniere
+               <lb n="3"/>de vidimus en disant que vous aves veu celz lettres etc. et pour ce nostre
+            très souverain seigneur que les messages du roy de Hongrie respondit <lb n="4"/>ne les
+            prenderoient jamais teles, mais veulent avoir original parlant en vostre nom, come font
+            cellez que aves de li, et <lb n="5"/>ledit de Montagu ou aultre de vos secretaires ne
+            les signeroient pas se vous ne leur commandies expressement, il vous plaise <lb n="6"
+            />commander <hi rend="crossed">ve</hi> audit Montagu ou Tabary que il signe lesdites <hi
+               rend="superscript">lettres</hi>, et vous plaise à delivrer le thenanceur, car lesdis
+            Hongrois <lb n="7"/>s’en vont tousjours. Nostre tres redoubté et souverain seigneur.
+            Nostre seigneur par sa saincte grace vous doinst bonne vie et longe. Escript <lb n="8"
+               /><date when="1375-12-17">le XVII jour du mois de decembre</date>. </p>
+
+         <p>
+            <lb n="9"/>les vostres humles creatures <lb n="10"/>Buiriau de la Riviere <lb n="11"/>et
+            Aleaume Boistel </p>
+
+         <p>
+            <pb n="1v"/>
+            <lb n="1"/>Au roy nostre tres redoubté et <lb n="2"/>souverain seigneur etc. </p>
+
+
+      </body>
+   </text>
+</TEI>
